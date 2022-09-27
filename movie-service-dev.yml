@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://mysql:3307/final_back_II
+    username: hola
+    password: chau
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+info:
+  app:
+    name: ${spring.application.name}
+    version: 1.0.0
+    description: Movie Microservice
